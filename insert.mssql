@@ -1,0 +1,8 @@
+INSERT INTO customer (store_id, first_name, last_name, address_id)
+VALUES (2, 'Gabriel', 'Peters', 608);
+INSERT INTO customer (store_id, first_name, last_name, address_id)
+VALUES (2, 'Jen', 'Peters', 608);
+INSERT INTO customer (store_id, first_name, last_name, address_id)
+VALUES (2, 'Murf', 'Peters', 608);
+
+SELECT * FROM public.customer;
